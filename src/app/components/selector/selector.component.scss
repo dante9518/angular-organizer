@@ -1,0 +1,10 @@
+.selector { 
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.arrow-left,
+.arrow-right {
+    cursor: pointer;
+}

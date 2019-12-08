@@ -1,0 +1,11 @@
+<div class="selector">
+    <div class="arrow-left" (click)="goMonth(-1)">
+        <
+    </div>
+    <div class="title">
+        {{ dateService.date | async | moment }}
+    </div>
+    <div class="arrow-right" (click)="goMonth(1)">
+        >
+    </div>
+</div>
